@@ -1,0 +1,15 @@
+.footer{
+    background:#100726;
+}
+
+.footer .credit{
+    text-align: center;
+    color:#fff;
+    padding:25px;
+    font-size: 15px;
+    width:100%;
+}
+
+.footer .credit span{
+    color:#F5D305;
+}

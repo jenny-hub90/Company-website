@@ -1,0 +1,94 @@
+.main{
+  width:100%;
+  display: flex;
+  margin:auto;
+}
+
+
+
+.left{
+    width:90%;
+    
+}
+
+.left img{
+    width:100%;
+    height: auto;
+    margin-left: 60px;
+}
+.left .text{
+    position: absolute;
+    top: 100px;
+    margin: 70px;
+    background-color: #100726;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
+.left .text span{
+    color:#F5D305;
+    font-family: 'Pacifico', cursive;
+}
+
+.left .text:hover {
+    opacity: 0.7;
+}
+
+.right {
+    width:10%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.right .fa {
+    background-color: #F5D305;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: 80px 2px;
+    border-radius: 10px;
+    color:white;
+}
+
+.right .fa:hover {
+    opacity: 0.7;
+}
+
+.mid{
+    width: 95%;
+    background-color: #F5D305;
+    text-align: center;
+    color:#100726;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.mid h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.mid p{
+    font-size: 10px;
+}
+
+.mid h1 span{
+    color:#fff;
+    font-family: 'Pacifico', cursive;
+}
+
+.mid:hover {
+    opacity: 0.7;
+}
+
+.image-section{
+ display: flex;
+ justify-content: center;
+}
+
+.image-section img{
+   width:25%;
+   height: auto;
+
+}

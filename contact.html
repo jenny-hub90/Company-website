@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><img src="Images/logo.png" alt="my company's logo"></a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+
+    </header>
+    <!-- header section ends -->
+    <!--Contact form starts--->
+    
+
+ <main >
+ < class="form">
+   <div class="title">
+   <h1 id="title">Contact <span>Form</span></h1>
+   <p id="description">Please feel free to apply for job in our company</p>
+  </div>
+   <form id="survey-form">
+   
+     <label for="name" id="name-label" class="uno">Name</label>
+     <input type="text" id="name" placeholder="Enter your name" requiered>
+  
+     
+     <label for="email" id="email-label" class="uno">Email</label>
+     <input type="email" id="email" placeholder="Enter your email"  requiered>
+     
+     <label for="age" id="number-label" class="uno">Age (optional)</label>
+     <input type="number" id="number" placeholder="Enter your age">
+     
+     <label for="dropdown" id="dropdown-label" class="uno">Which option best describes your current role?</label>
+     <select id="dropdown" name="rol">
+       <option disable selected value>Select your current rol</option>
+       <option value="student">Student</option>
+       <option value="job">Full time job</option>
+       <option value="freelancer">Freelancer</option>
+       <option value="hunting">Looking for a job</option>
+     </select>
+     <div>
+     <p class="uno">Would you recommend our Agency to a friend?</p>
+     <label for="btn" id="btn-label" class="uno">Definitely</label>
+     <input type="radio" name="user-recommend" value="definitely" class="input" checked>
+     <label for="btn" id="btn-label" class="uno">Maybe</label>
+     <input type="radio" name="user-recommend" value="maybe" class="input">
+     <label for="btn" id="btn-label" class="uno">Not sure</label>
+       <input type="radio" name="user-recommend" value="not-sure" class="input"></div>
+    
+       <p class="uno">which post would you like to join? (Check all that apply)</p>
+     <div class="check">
+     <label class="uno">
+     <input name="prefer" type="checkbox" value="front-end projects" class="checkbox-input">Front-end projects</label>
+     <label class="uno">
+     <input name="prefer" type="checkbox" value="back-end projects" class="checkbox-input">Back-end projects</label>
+
+     <label class="uno">
+   <input name="prefer" type="checkbox" value="social-media" class="checkbox-input">Social media (Marketing)</label>
+     <label class="uno">
+   <input name="prefer" type="checkbox" value="video-games" class="checkbox-input">Video Games Development</label>
+
+     <label class="uno">
+   <input name="prefer" type="checkbox" value="ui-ux-design" class="checkbox-input">UI/UX Design Tutorials++</label>
+       <label class="uno">
+   <input name="prefer" type="checkbox" value="other" class="checkbox-input">Other (send us a message)</label>
+     </div>
+     
+     <p class="uno">Any comments or suggestions?</p>
+     <textarea id="message" class="textarea uno" name="message" placeholder="Enter your message here..."></textarea>
+     
+    
+     
+     <button type="submit" id="submit" class="submit uno">Send your application</button>
+     
+   </form>
+  </div>
+</main>
+    <!--Contact form ends-->
+    <!-- footer section starts  -->
+
+    <div class="footer">
+        <div class="credit">&copy; copyright @ 2023 by <span>Jenny Rajak</span> </div>
+    </div>
+
+    <!-- footer section ends -->
+</body>
+</html>

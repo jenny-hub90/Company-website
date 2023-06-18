@@ -1,0 +1,133 @@
+.about .firstheading{
+    margin:150px;
+    font-size: 45px;
+    color:#fff;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.about .firstheading span{
+   color:#F5D305;
+   font-family: 'Pacifico', cursive;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .about .row .image{
+    flex:1 1 45rem;
+    padding:1rem;
+  }
+  
+  .about .row .image img{ 
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    border:1rem solid #F5D305;
+  }
+  
+  .about .row .content{
+    flex:1 1 45rem;
+  }
+  
+  .about .row .content h3{
+    font-size: 2rem;
+    color:#fff;
+  }
+  
+  .about .row .content p{
+    font-size: 15px;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 2;
+  }
+
+  @font-face {
+    font-family: Exo;
+    src: url(./fonts/Exo2.0-Medium.otf);
+  }
+  .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5D305;
+  }
+
+  .main h1{
+    font-size: 50px;
+    color: #100726;
+    font-family: 'Pacifico', cursive;
+  }
+  .main span{
+    color:#ffff;
+    font-family: 'Pacifico', cursive;
+  }
+  .profile-card{
+    position: relative;
+    font-family: sans-serif;
+    width: 220px;
+    height: 220px;
+    background: #100726;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0 25px;
+  }
+  .profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+  }
+  .profile-card .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 99;
+  }
+  .profile-card:hover .img{
+    transform: translateY(-60px);
+  }
+  .img img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #F5D305;
+    transition: .6s;
+  }
+  .profile-card:hover img{
+    border-radius: 10px;
+  }
+  .caption{
+    text-align: center;
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: .6s;
+  }
+  .profile-card:hover .caption{
+    opacity: 1;
+  }
+  .caption h3{
+    font-size: 21px;
+    font-family: sans-serif;
+    color:#fff;
+  }
+  .caption p{
+    font-size: 15px;
+    color: #F5D305;
+    font-family: sans-serif;
+    margin: 2px 0 9px 0;
+  }
+  .caption .social-links a{
+    color: #fff;
+    margin-right: 15px;
+    font-size: 21px;
+    transition: .6s;
+  }
+  .social-links a:hover{
+    opacity: 0.7;
+  }
